@@ -39,3 +39,12 @@ export const fonts = {
   NotoSansJP: `'Noto Sans JP', sans-serif`,
   Roboto: `'Roboto', sans-serif`,
 } as const;
+
+export const shadows = {
+  md: '0px 1px 4px rgba(0, 0, 0, 0.25)',
+} as const;
+
+export const roundings = {
+  sm: '4px',
+  md: '8px',
+} as const;
