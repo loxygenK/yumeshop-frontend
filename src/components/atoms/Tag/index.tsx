@@ -1,6 +1,6 @@
-import { ResponsiveFontSize } from 'src/styles/responsives';
+import { breakpoint } from 'src/styles/breakpoint';
 import { spacingSizes } from 'src/styles/Tokens';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export type TagProps = {
   name: string;
@@ -14,7 +14,12 @@ const TagWrapper = styled.li<Pick<TagProps, 'color'>>`
   list-style: none;
   padding: 0 ${spacingSizes.xs};
 
-  ${ResponsiveFontSize}
+  ${breakpoint.mb(css`
+    font-size: 12px;
+  `)}
+  ${breakpoint.pc(css`
+    font-size: 22px;
+  `)}
 `;
 
 export const Tag = ({ name, color }: TagProps): JSX.Element => (

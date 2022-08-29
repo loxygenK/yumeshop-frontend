@@ -2,10 +2,17 @@ import { ReactNode } from 'react';
 import styled, { css } from 'styled-components';
 
 import NextImage from 'next/image';
-import { rounding, shadows, spacingSizes } from 'src/styles/Tokens';
+import { fontSizes, rounding, shadows, spacingSizes } from 'src/styles/Tokens';
 import { breakpoint } from 'src/styles/breakpoint';
 
 const CardWrapper = styled.article`
+  ${breakpoint.mb(css`
+    font-size: ${fontSizes.fontSize12};
+  `)}
+  ${breakpoint.pc(css`
+    font-size: ${fontSizes.fontSize18};
+  `)}
+
   box-shadow: ${shadows.md};
 
   width: fit-content;
