@@ -75,7 +75,7 @@ exports[`Storyshots atoms/Logo Logo 1`] = `
 
 exports[`Storyshots atoms/Tag Default 1`] = `
 <li
-  className="Tag__TagWrapper-sc-14oc89a-0 catMjJ"
+  className="Tag__TagWrapper-sc-14oc89a-0 dapIqC"
   color="#ff0000"
 >
   Tag
