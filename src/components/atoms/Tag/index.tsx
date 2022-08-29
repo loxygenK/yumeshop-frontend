@@ -1,3 +1,4 @@
+import { ResponsiveFontSize } from 'src/styles/responsives';
 import { spacingSizes } from 'src/styles/Tokens';
 import styled from 'styled-components';
 
@@ -12,6 +13,8 @@ const TagWrapper = styled.li<Pick<TagProps, 'color'>>`
   color: white;
   list-style: none;
   padding: 0 ${spacingSizes.xs};
+
+  ${ResponsiveFontSize}
 `;
 
 export const Tag = ({ name, color }: TagProps): JSX.Element => (
