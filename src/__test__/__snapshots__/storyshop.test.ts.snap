@@ -82,6 +82,31 @@ exports[`Storyshots atoms/Tag Default 1`] = `
 </li>
 `;
 
+exports[`Storyshots molecules/Tags Default 1`] = `
+<ul
+  className="Tags__TagsWrapper-sc-16wimeq-0 iEosHM"
+>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 dapIqC"
+    color="#ff0000"
+  >
+    Tag-A
+  </li>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 gGhdpi"
+    color="green"
+  >
+    Tag-B
+  </li>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 cAqBke"
+    color="#0000ff"
+  >
+    Tag-C
+  </li>
+</ul>
+`;
+
 exports[`Storyshots organisms/Footer Footer 1`] = `
 <footer
   className="Footer__Wrapper-sc-10gingb-0 jJIwnP"
