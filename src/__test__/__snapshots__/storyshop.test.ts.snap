@@ -75,7 +75,7 @@ exports[`Storyshots atoms/Logo Logo 1`] = `
 
 exports[`Storyshots atoms/SimpleCard Default 1`] = `
 <article
-  className="SimpleCard__CardWrapper-sc-1rn6x81-0 gXuHfk"
+  className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
 >
   <section
     className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -170,7 +170,7 @@ exports[`Storyshots atoms/SimpleCard Default 1`] = `
 
 exports[`Storyshots atoms/Tag Default 1`] = `
 <li
-  className="Tag__TagWrapper-sc-14oc89a-0 fFAOxz"
+  className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
   color="#ff0000"
 >
   Tag
@@ -182,19 +182,19 @@ exports[`Storyshots molecules/Tags Default 1`] = `
   className="Tags__TagsWrapper-sc-16wimeq-0 gyEMZL"
 >
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 fFAOxz"
+    className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
     color="#ff0000"
   >
     Tag-A
   </li>
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 gMeWhr"
+    className="Tag__TagWrapper-sc-14oc89a-0 fgdIoT"
     color="green"
   >
     Tag-B
   </li>
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 jeIcJj"
+    className="Tag__TagWrapper-sc-14oc89a-0 jTTwrj"
     color="#0000ff"
   >
     Tag-C
