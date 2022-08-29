@@ -73,6 +73,15 @@ exports[`Storyshots atoms/Logo Logo 1`] = `
 </svg>
 `;
 
+exports[`Storyshots atoms/Tag Default 1`] = `
+<li
+  className="Tag__TagWrapper-sc-14oc89a-0 dapIqC"
+  color="#ff0000"
+>
+  Tag
+</li>
+`;
+
 exports[`Storyshots organisms/Footer Footer 1`] = `
 <footer
   className="Footer__Wrapper-sc-10gingb-0 jJIwnP"
