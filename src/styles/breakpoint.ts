@@ -11,12 +11,12 @@ export const breakpoint: Record<Breakpoints, BreakpointFn> = {
     ${mb}
   `,
   tb: (tb) => css`
-    @media (min-width: 640px) {
+    @media (min-width: 768px) {
       ${tb}
     }
   `,
   pc: (pc) => css`
-    @media (min-width: 768px) {
+    @media (min-width: 1152px) {
       ${pc}
     }
   `,
