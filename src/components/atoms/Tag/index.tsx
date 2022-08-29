@@ -8,7 +8,8 @@ export type TagProps = {
 
 const TagWrapper = styled.li<Pick<TagProps, 'color'>>`
   display: inline flow-root;
-  background: ${(props) => props.color};
+  background-color: ${(props) => props.color};
+  color: white;
   list-style: none;
   padding: 0 ${spacingSizes.xs};
 `;
