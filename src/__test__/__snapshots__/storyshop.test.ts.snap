@@ -84,7 +84,7 @@ exports[`Storyshots atoms/Tag Default 1`] = `
 
 exports[`Storyshots molecules/Tags Default 1`] = `
 <ul
-  className="Tags__TagsWrapper-sc-16wimeq-0 iEosHM"
+  className="Tags__TagsWrapper-sc-16wimeq-0 gyEMZL"
 >
   <li
     className="Tag__TagWrapper-sc-14oc89a-0 dapIqC"

@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const TagsWrapper = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   gap: ${spacingSizes.xxs};
 `;
 
