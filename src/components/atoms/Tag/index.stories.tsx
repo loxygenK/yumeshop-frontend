@@ -9,6 +9,6 @@ export default {
 export const Default: ComponentStoryObj<typeof Tag> = {
   args: {
     color: '#ff0000',
-    children: 'Tag',
+    name: 'Tag',
   },
 };

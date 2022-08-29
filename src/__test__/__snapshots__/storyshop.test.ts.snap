@@ -75,11 +75,36 @@ exports[`Storyshots atoms/Logo Logo 1`] = `
 
 exports[`Storyshots atoms/Tag Default 1`] = `
 <li
-  className="Tag__TagWrapper-sc-14oc89a-0 dapIqC"
+  className="Tag__TagWrapper-sc-14oc89a-0 fFAOxz"
   color="#ff0000"
 >
   Tag
 </li>
+`;
+
+exports[`Storyshots molecules/Tags Default 1`] = `
+<ul
+  className="Tags__TagsWrapper-sc-16wimeq-0 gyEMZL"
+>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 fFAOxz"
+    color="#ff0000"
+  >
+    Tag-A
+  </li>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 gMeWhr"
+    color="green"
+  >
+    Tag-B
+  </li>
+  <li
+    className="Tag__TagWrapper-sc-14oc89a-0 jeIcJj"
+    color="#0000ff"
+  >
+    Tag-C
+  </li>
+</ul>
 `;
 
 exports[`Storyshots organisms/Footer Footer 1`] = `
