@@ -44,7 +44,7 @@ export const shadows = {
   md: '0px 1px 4px rgba(0, 0, 0, 0.25)',
 } as const;
 
-export const rounding = {
+export const roundings = {
   sm: '4px',
   md: '8px',
 } as const;

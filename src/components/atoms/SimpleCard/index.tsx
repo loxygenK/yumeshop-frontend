@@ -1,8 +1,7 @@
 import { ReactNode } from 'react';
 import styled, { css } from 'styled-components';
-
 import NextImage from 'next/image';
-import { fontSizes, rounding, shadows, spacingSizes } from 'src/styles/Tokens';
+import { fontSizes, roundings, shadows, spacingSizes } from 'src/styles/Tokens';
 import { breakpoint } from 'src/styles/breakpoint';
 
 const CardWrapper = styled.article`
@@ -14,9 +13,8 @@ const CardWrapper = styled.article`
   `)}
 
   box-shadow: ${shadows.md};
-
   width: fit-content;
-  border-radius: ${rounding.md};
+  border-radius: ${roundings.md};
 `;
 
 const Image = styled.section`
