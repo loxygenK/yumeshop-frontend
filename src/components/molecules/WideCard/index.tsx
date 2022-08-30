@@ -2,7 +2,7 @@ import { TagProps } from 'src/components/atoms/Tag';
 import { breakpoint } from 'src/styles/breakpoint';
 import { fontSizes, roundings, shadows, spacingSizes } from 'src/styles/Tokens';
 import styled, { css } from 'styled-components';
-import { Tags } from '../Tags';
+import { Tags } from 'src/components/molecules/Tags';
 
 const WideCardWrapper = styled.article`
   display: flex;
