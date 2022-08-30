@@ -47,6 +47,8 @@ export const Carousel = ({ images }: CarouselProps): JSX.Element => {
         {images.map((image) => (
           <LinkedImage
             size={size}
+            // This is to override the `style` attribute set by `react-slick`.
+            // refer: https://react-slick.neostack.com/docs/example/variable-width
             style={{ width: size }}
             key={image.id}
             href={image.linkHref}
