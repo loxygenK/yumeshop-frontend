@@ -3,6 +3,8 @@ import NextImage from 'next/image';
 import Slider from 'react-slick';
 import { useEffect, useRef, useState } from 'react';
 
+const IMAGE_MAX_SIZE_PX = 600;
+
 const CarouselWrapper = styled.div<{ size: string }>`
   height: ${(props) => props.size};
 `;
@@ -21,8 +23,6 @@ export type CarouselImage = {
 export type CarouselProps = {
   images: CarouselImage[];
 };
-
-const IMAGE_MAX_SIZE_PX = 600;
 export const Carousel = ({ images }: CarouselProps): JSX.Element => {
   const ref = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState<string>(`${IMAGE_MAX_SIZE_PX}px`);
