@@ -3,6 +3,7 @@ import { breakpoint } from 'src/styles/breakpoint';
 import { fontSizes, roundings, shadows, spacingSizes } from 'src/styles/Tokens';
 import styled, { css } from 'styled-components';
 import { Tags } from 'src/components/molecules/Tags';
+import dayjs from 'dayjs';
 
 const WideCardWrapper = styled.article`
   display: flex;
@@ -53,13 +54,22 @@ export type WideCardProps = {
   tags: TagProps[];
   text: string;
 };
-export const WideCard = ({ date, tags, text }: WideCardProps): JSX.Element => (
-  <WideCardWrapper>
-    <MetaInformationLine>
-      {/* TODO: add `datetime` props */}
-      <Date>{date}</Date>
-      <Tags tags={tags} />
-    </MetaInformationLine>
-    <Content>{text}</Content>
-  </WideCardWrapper>
-);
+export const WideCard = ({
+  date: rawDate,
+  tags,
+  text,
+}: WideCardProps): JSX.Element => {
+  const date = dayjs(rawDate);
+
+  return (
+    <WideCardWrapper>
+      <MetaInformationLine>
+        <Date dateTime={date.format('YYYY-MM-DD')}>
+          {date.format('YYYY/MM/DD')}
+        </Date>
+        <Tags tags={tags} />
+      </MetaInformationLine>
+      <Content>{text}</Content>
+    </WideCardWrapper>
+  );
+};
