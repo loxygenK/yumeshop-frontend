@@ -1,12 +1,19 @@
 import { Tag, TagProps } from 'src/components/atoms/Tag';
+import { breakpoint } from 'src/styles/breakpoint';
 import { spacingSizes } from 'src/styles/Tokens';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const TagsWrapper = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: ${spacingSizes.xxs};
   align-items: center;
+
+  ${breakpoint.mb(css`
+    gap: ${spacingSizes.xxs};
+  `)}
+  ${breakpoint.pc(css`
+    gap: ${spacingSizes.sm};
+  `)}
 `;
 
 export type TagsProps = {
