@@ -10,15 +10,18 @@ export const Default: ComponentStoryObj<typeof Carousel> = {
   args: {
     images: [
       {
-        imageUrl: 'https://picsum.photos/1/600/600',
+        id: '1',
+        imageUrl: 'https://picsum.photos/id/1/600/600',
         linkHref: 'https://example.com/1',
       },
       {
-        imageUrl: 'https://picsum.photos/2/600/600',
+        id: '2',
+        imageUrl: 'https://picsum.photos/id/2/600/600',
         linkHref: 'https://example.com/2',
       },
       {
-        imageUrl: 'https://picsum.photos/3/600/600',
+        id: '3',
+        imageUrl: 'https://picsum.photos/id/3/600/600',
         linkHref: 'https://example.com/3',
       },
     ],
