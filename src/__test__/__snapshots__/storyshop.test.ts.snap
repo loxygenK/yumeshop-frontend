@@ -179,7 +179,7 @@ exports[`Storyshots atoms/Tag Default 1`] = `
 
 exports[`Storyshots molecules/Tags Default 1`] = `
 <ul
-  className="Tags__TagsWrapper-sc-16wimeq-0 gBggRX"
+  className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
 >
   <li
     className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
@@ -207,15 +207,16 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
   className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
 >
   <div
-    className="WideCard__MetaInformationLine-sc-nrwjyl-1 dYkBPa"
+    className="WideCard__MetaInformationLine-sc-nrwjyl-1 cuvZVz"
   >
     <time
-      className="WideCard__Date-sc-nrwjyl-2 eGsMRn"
+      className="WideCard__Date-sc-nrwjyl-2 bfpOWL"
+      dateTime="2022-08-30"
     >
       2022/08/30
     </time>
     <ul
-      className="Tags__TagsWrapper-sc-16wimeq-0 gBggRX"
+      className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
     >
       <li
         className="Tag__TagWrapper-sc-14oc89a-0 eXcEJX"
