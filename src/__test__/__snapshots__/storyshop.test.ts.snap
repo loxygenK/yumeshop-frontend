@@ -3,7 +3,7 @@
 exports[`Storyshots atoms/Carousel Default 1`] = `
 <div
   className="Carousel__CarouselWrapper-sc-1ey4ea4-0 jSTejE"
-  height="0px"
+  size="0px"
 >
   <div
     className="slick-slider slick-initialized"
