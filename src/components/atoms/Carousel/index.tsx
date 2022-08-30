@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import NextImage from 'next/image';
 import Slider from 'react-slick';
-// import { useCarouselElementSize } from 'src/components/atoms/Carousel/useScreenSize';
 import { useEffect, useRef, useState } from 'react';
 
 const CarouselWrapper = styled.div<{ height: string }>`
