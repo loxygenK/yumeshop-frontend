@@ -6,6 +6,7 @@ const TagsWrapper = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: ${spacingSizes.xxs};
+  align-items: center;
 `;
 
 export type TagsProps = {
