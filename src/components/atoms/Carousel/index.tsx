@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 import NextImage from 'next/image';
 import Slider from 'react-slick';
+import { useCarouselElementSize } from 'src/components/atoms/Carousel/useScreenSize';
 
-const CarouselWrapper = styled.div`
-  height: 600px;
+const CarouselWrapper = styled.div<{ height: string }>`
+  height: ${(props) => props.height};
 `;
 
-const LinkedImage = styled.a`
+const LinkedImage = styled.a<{ size: string }>`
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: ${(props) => props.size};
+  height: ${(props) => props.size};
 `;
 
 export type CarouselImage = {
@@ -20,18 +21,24 @@ export type CarouselImage = {
 export type CarouselProps = {
   images: CarouselImage[];
 };
-export const Carousel = ({ images }: CarouselProps): JSX.Element => (
-  <CarouselWrapper>
-    <Slider centerMode dots infinite variableWidth>
-      {images.map((image) => (
-        <LinkedImage
-          style={{ width: '600px' }}
-          key={image.id}
-          href={image.linkHref}
-        >
-          <NextImage src={image.imageUrl} layout="fill" />
-        </LinkedImage>
-      ))}
-    </Slider>
-  </CarouselWrapper>
-);
+export const Carousel = ({ images }: CarouselProps): JSX.Element => {
+  const rawElementSize = useCarouselElementSize();
+  const elementSize = `${rawElementSize}px`;
+
+  return (
+    <CarouselWrapper height={elementSize}>
+      <Slider centerMode dots infinite variableWidth>
+        {images.map((image) => (
+          <LinkedImage
+            size={elementSize}
+            style={{ width: elementSize }}
+            key={image.id}
+            href={image.linkHref}
+          >
+            <NextImage src={image.imageUrl} layout="fill" />
+          </LinkedImage>
+        ))}
+      </Slider>
+    </CarouselWrapper>
+  );
+};
