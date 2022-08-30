@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import NextImage from 'next/image';
 import Slider from 'react-slick';
 
-const Image = styled.div`
+const LinkedImage = styled.a`
   position: relative;
   width: 600px;
   height: 600px;
@@ -20,9 +20,13 @@ export const Carousel = ({ images }: CarouselProps): JSX.Element => (
   <div style={{ height: '600px' }}>
     <Slider centerMode dots infinite variableWidth>
       {images.map((image) => (
-        <Image style={{ width: '600px' }} key={image.id}>
+        <LinkedImage
+          style={{ width: '600px' }}
+          key={image.id}
+          href={image.linkHref}
+        >
           <NextImage src={image.imageUrl} layout="fill" />
-        </Image>
+        </LinkedImage>
       ))}
     </Slider>
   </div>
