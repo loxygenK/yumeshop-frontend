@@ -2,7 +2,8 @@
 
 exports[`Storyshots atoms/Carousel Default 1`] = `
 <div
-  className="Carousel__CarouselWrapper-sc-1ey4ea4-0 bLUUdB"
+  className="Carousel__CarouselWrapper-sc-1ey4ea4-0 jSTejE"
+  height="0px"
 >
   <div
     className="slick-slider slick-initialized"
@@ -36,7 +37,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
       onTouchStart={[Function]}
       style={
         Object {
-          "padding": "0px 50px",
+          "padding": "0px 0px",
         }
       }
     >
@@ -47,13 +48,12 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
         onMouseOver={[Function]}
         style={
           Object {
-            "WebkitTransform": "translate3d(-50px, 0px, 0px)",
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
             "WebkitTransition": "",
-            "msTransform": "translateX(-50px)",
+            "msTransform": "translateX(0px)",
             "opacity": 1,
-            "transform": "translate3d(-50px, 0px, 0px)",
+            "transform": "translate3d(0px, 0px, 0px)",
             "transition": "",
-            "width": -900,
           }
         }
       >
@@ -64,15 +64,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/1"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -170,15 +171,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/2"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -276,15 +278,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/3"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -383,15 +386,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           style={
             Object {
               "outline": "none",
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/1"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -490,15 +494,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           style={
             Object {
               "outline": "none",
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/2"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -597,15 +602,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           style={
             Object {
               "outline": "none",
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/3"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -703,15 +709,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/1"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -809,15 +816,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/2"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
@@ -915,15 +923,16 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           onClick={[Function]}
           style={
             Object {
-              "width": "600px",
+              "width": "0px",
             }
           }
           tabIndex="-1"
         >
           <div>
             <a
-              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
               href="https://example.com/3"
+              size="0px"
               style={
                 Object {
                   "display": "inline-block",
