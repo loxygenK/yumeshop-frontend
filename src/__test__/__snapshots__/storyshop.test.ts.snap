@@ -2,11 +2,7 @@
 
 exports[`Storyshots atoms/Carousel Default 1`] = `
 <div
-  style={
-    Object {
-      "height": "600px",
-    }
-  }
+  className="Carousel__CarouselWrapper-sc-1ey4ea4-0 bLUUdB"
 >
   <div
     className="slick-slider slick-initialized"
@@ -74,8 +70,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/1"
               style={
                 Object {
                   "display": "inline-block",
@@ -163,7 +160,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -179,8 +176,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/2"
               style={
                 Object {
                   "display": "inline-block",
@@ -268,7 +266,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -284,8 +282,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/3"
               style={
                 Object {
                   "display": "inline-block",
@@ -373,7 +372,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -390,8 +389,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/1"
               style={
                 Object {
                   "display": "inline-block",
@@ -479,7 +479,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -496,8 +496,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/2"
               style={
                 Object {
                   "display": "inline-block",
@@ -585,7 +586,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -602,8 +603,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/3"
               style={
                 Object {
                   "display": "inline-block",
@@ -691,7 +693,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -707,8 +709,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/1"
               style={
                 Object {
                   "display": "inline-block",
@@ -796,7 +799,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -812,8 +815,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/2"
               style={
                 Object {
                   "display": "inline-block",
@@ -901,7 +905,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
         <div
@@ -917,8 +921,9 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
           tabIndex="-1"
         >
           <div>
-            <div
-              className="Carousel__Image-sc-1ey4ea4-0 eTRUgo"
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 boWsTI"
+              href="https://example.com/3"
               style={
                 Object {
                   "display": "inline-block",
@@ -1006,7 +1011,7 @@ exports[`Storyshots atoms/Carousel Default 1`] = `
                   />
                 </noscript>
               </span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
