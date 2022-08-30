@@ -179,7 +179,7 @@ exports[`Storyshots atoms/Tag Default 1`] = `
 
 exports[`Storyshots molecules/Tags Default 1`] = `
 <ul
-  className="Tags__TagsWrapper-sc-16wimeq-0 gyEMZL"
+  className="Tags__TagsWrapper-sc-16wimeq-0 gBggRX"
 >
   <li
     className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
@@ -200,6 +200,49 @@ exports[`Storyshots molecules/Tags Default 1`] = `
     Tag-C
   </li>
 </ul>
+`;
+
+exports[`Storyshots molecules/WideCard Default 1`] = `
+<article
+  className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
+>
+  <div
+    className="WideCard__MetaInformationLine-sc-nrwjyl-1 dYkBPa"
+  >
+    <time
+      className="WideCard__Date-sc-nrwjyl-2 eGsMRn"
+    >
+      2022/08/30
+    </time>
+    <ul
+      className="Tags__TagsWrapper-sc-16wimeq-0 gBggRX"
+    >
+      <li
+        className="Tag__TagWrapper-sc-14oc89a-0 eXcEJX"
+        color="red"
+      >
+        Tag-1
+      </li>
+      <li
+        className="Tag__TagWrapper-sc-14oc89a-0 fgdIoT"
+        color="green"
+      >
+        Tag-2
+      </li>
+      <li
+        className="Tag__TagWrapper-sc-14oc89a-0 bYpkuq"
+        color="blue"
+      >
+        Tag-3
+      </li>
+    </ul>
+  </div>
+  <p
+    className="WideCard__Content-sc-nrwjyl-3 kAkQkf"
+  >
+    WideCard component WideCard component WideCard component WideCard component WideCard component WideCard component WideCard component WideCard component WideCard component WideCard component 
+  </p>
+</article>
 `;
 
 exports[`Storyshots organisms/Footer Footer 1`] = `
