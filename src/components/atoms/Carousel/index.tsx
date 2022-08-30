@@ -3,8 +3,8 @@ import NextImage from 'next/image';
 import Slider from 'react-slick';
 import { useEffect, useRef, useState } from 'react';
 
-const CarouselWrapper = styled.div<{ height: string }>`
-  height: ${(props) => props.height};
+const CarouselWrapper = styled.div<{ size: string }>`
+  height: ${(props) => props.size};
 `;
 
 const LinkedImage = styled.a<{ size: string }>`
@@ -39,10 +39,10 @@ export const Carousel = ({ images }: CarouselProps): JSX.Element => {
     window.addEventListener('resize', onScreenResize);
 
     return () => window.removeEventListener('resize', onScreenResize);
-  }, [ref.current?.clientWidth, size, setSize]);
+  }, [ref.current?.clientWidth, size]);
 
   return (
-    <CarouselWrapper ref={ref} height={size}>
+    <CarouselWrapper ref={ref} size={size}>
       <Slider centerMode dots infinite variableWidth centerPadding="0px">
         {images.map((image) => (
           <LinkedImage
