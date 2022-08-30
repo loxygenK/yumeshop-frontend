@@ -39,7 +39,7 @@ export const Carousel = ({ images }: CarouselProps): JSX.Element => {
     window.addEventListener('resize', onScreenResize);
 
     return () => window.removeEventListener('resize', onScreenResize);
-  }, [ref.current?.clientWidth, size]);
+  }, [ref.current?.clientWidth, setSize]);
 
   return (
     <CarouselWrapper ref={ref} size={size}>
