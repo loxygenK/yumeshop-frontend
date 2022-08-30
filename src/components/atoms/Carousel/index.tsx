@@ -21,13 +21,17 @@ export type CarouselImage = {
 export type CarouselProps = {
   images: CarouselImage[];
 };
+
+const IMAGE_MAX_SIZE_PX = 600;
 export const Carousel = ({ images }: CarouselProps): JSX.Element => {
   const ref = useRef<HTMLDivElement>(null);
-  const [size, setSize] = useState<string>('600px');
+  const [size, setSize] = useState<string>(`${IMAGE_MAX_SIZE_PX}px`);
 
   useEffect(() => {
     const onScreenResize = () => {
-      setSize(`${Math.min(ref.current?.clientWidth ?? 0, 600)}px`);
+      setSize(
+        `${Math.min(ref.current?.clientWidth ?? 0, IMAGE_MAX_SIZE_PX)}px`,
+      );
     };
 
     onScreenResize();
