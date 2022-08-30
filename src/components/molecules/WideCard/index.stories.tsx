@@ -14,6 +14,6 @@ export const Default: ComponentStoryObj<typeof WideCard> = {
       { color: 'green', name: 'Tag-2' },
       { color: 'blue', name: 'Tag-3' },
     ],
-    text: 'WideCard component '.repeat(50),
+    text: 'WideCard component '.repeat(10),
   },
 };
