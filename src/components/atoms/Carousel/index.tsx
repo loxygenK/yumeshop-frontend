@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import NextImage from 'next/image';
 import Slider from 'react-slick';
 
+const CarouselWrapper = styled.div`
+  height: 600px;
+`;
+
 const LinkedImage = styled.a`
   position: relative;
   width: 600px;
@@ -17,7 +21,7 @@ export type CarouselProps = {
   images: CarouselImage[];
 };
 export const Carousel = ({ images }: CarouselProps): JSX.Element => (
-  <div style={{ height: '600px' }}>
+  <CarouselWrapper>
     <Slider centerMode dots infinite variableWidth>
       {images.map((image) => (
         <LinkedImage
@@ -29,5 +33,5 @@ export const Carousel = ({ images }: CarouselProps): JSX.Element => (
         </LinkedImage>
       ))}
     </Slider>
-  </div>
+  </CarouselWrapper>
 );
