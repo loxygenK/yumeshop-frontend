@@ -26,10 +26,18 @@ const WideCardWrapper = styled.article`
 
 const MetaInformationLine = styled.div`
   display: flex;
-  gap: ${spacingSizes.xs};
+  align-items: center;
+
+  ${breakpoint.mb(css`
+    gap: ${spacingSizes.xs};
+  `)}
+  ${breakpoint.pc(css`
+    gap: ${spacingSizes.sm};
+  `)}
 `;
 
 const Date = styled.time`
+  line-height: 1;
   font-weight: 700;
 
   ${breakpoint.mb(css`
