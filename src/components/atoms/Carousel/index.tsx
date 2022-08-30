@@ -23,16 +23,11 @@ export type CarouselProps = {
   images: CarouselImage[];
 };
 export const Carousel = ({ images }: CarouselProps): JSX.Element => {
-  // const rawElementSize = useCarouselElementSize();
-  // const elementSize = `${rawElementSize - 47}px`;
-
   const ref = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState<string>('600px');
 
   useEffect(() => {
     const onScreenResize = () => {
-      console.log(ref.current?.clientWidth);
-      console.log(size);
       setSize(`${Math.min(ref.current?.clientWidth ?? 0, 600)}px`);
     };
 
