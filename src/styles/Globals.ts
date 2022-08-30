@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { fonts } from './Tokens';
 import 'ress';
-import 'swiper/swiper.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
