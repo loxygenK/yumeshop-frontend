@@ -7,11 +7,11 @@ export type MockAPIProviderProps<T> = {
 };
 
 const createMockMiddleWare =
-  <T,>(response: T): Middleware =>
+  (response: unknown): Middleware =>
   () =>
   (): SWRResponse => ({
     data: response,
-    mutate: () => Promise.resolve<T>(response),
+    mutate: () => Promise.resolve(response),
     isValidating: false,
   });
 
