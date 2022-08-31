@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
-import { MockAPIProvider } from 'src/storybook/decorators/MockAPIProvider';
+import { mockAPIDecorator } from 'src/storybook/decorators/MockAPIProvider';
 import { PromotionsCarousel } from '.';
 
 const response = [
@@ -39,11 +39,5 @@ export default {
 } as ComponentMeta<typeof PromotionsCarousel>;
 
 export const Default: ComponentStoryObj<typeof PromotionsCarousel> = {
-  decorators: [
-    (Story) => (
-      <MockAPIProvider response={response}>
-        <Story />
-      </MockAPIProvider>
-    ),
-  ],
+  decorators: [mockAPIDecorator(response)],
 };
