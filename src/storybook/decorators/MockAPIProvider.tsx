@@ -1,9 +1,9 @@
 import { ReactNode, useMemo } from 'react';
 import { Middleware, SWRConfig, SWRResponse } from 'swr';
 
-export type MockAPIProviderProps<T> = {
+export type MockAPIProviderProps = {
   children: ReactNode;
-  response: T;
+  response: unknown;
 };
 
 const createMockMiddleWare =
@@ -15,10 +15,10 @@ const createMockMiddleWare =
     isValidating: false,
   });
 
-export const MockAPIProvider = <T,>({
+export const MockAPIProvider = ({
   children,
   response,
-}: MockAPIProviderProps<T>): JSX.Element => {
+}: MockAPIProviderProps): JSX.Element => {
   const mockMiddleware = useMemo(
     () => createMockMiddleWare(response),
     [response],
