@@ -4,6 +4,8 @@ import { fontSizes, roundings, shadows, spacingSizes } from 'src/styles/Tokens';
 import styled, { css } from 'styled-components';
 import { Tags } from 'src/components/molecules/Tags';
 import dayjs from 'dayjs';
+import 'dayjs/plugin/utc';
+import 'dayjs/plugin/timezone';
 
 const WideCardWrapper = styled.article`
   display: flex;
@@ -67,7 +69,7 @@ export const WideCard = ({
   tags,
   text,
 }: WideCardProps): JSX.Element => {
-  const date = dayjs(rawDate);
+  const date = dayjs(rawDate).tz();
 
   return (
     <WideCardWrapper>

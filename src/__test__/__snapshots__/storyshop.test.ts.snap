@@ -1254,7 +1254,7 @@ exports[`Storyshots atoms/SimpleCard Default 1`] = `
 
 exports[`Storyshots atoms/Tag Default 1`] = `
 <li
-  className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
+  className="Tag__TagWrapper-sc-14oc89a-0 jmbcSW"
   color="#ff0000"
 >
   Tag
@@ -1266,19 +1266,19 @@ exports[`Storyshots molecules/Tags Default 1`] = `
   className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
 >
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 hkYttr"
+    className="Tag__TagWrapper-sc-14oc89a-0 jmbcSW"
     color="#ff0000"
   >
     Tag-A
   </li>
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 fgdIoT"
+    className="Tag__TagWrapper-sc-14oc89a-0 jzdEHK"
     color="green"
   >
     Tag-B
   </li>
   <li
-    className="Tag__TagWrapper-sc-14oc89a-0 jTTwrj"
+    className="Tag__TagWrapper-sc-14oc89a-0 RcNki"
     color="#0000ff"
   >
     Tag-C
@@ -1303,19 +1303,19 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
       className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
     >
       <li
-        className="Tag__TagWrapper-sc-14oc89a-0 eXcEJX"
+        className="Tag__TagWrapper-sc-14oc89a-0 jrWDKq"
         color="red"
       >
         Tag-1
       </li>
       <li
-        className="Tag__TagWrapper-sc-14oc89a-0 fgdIoT"
+        className="Tag__TagWrapper-sc-14oc89a-0 jzdEHK"
         color="green"
       >
         Tag-2
       </li>
       <li
-        className="Tag__TagWrapper-sc-14oc89a-0 bYpkuq"
+        className="Tag__TagWrapper-sc-14oc89a-0 irPjbz"
         color="blue"
       >
         Tag-3
@@ -1976,6 +1976,87 @@ exports[`Storyshots organisms/Header Header 1`] = `
     </svg>
   </a>
 </header>
+`;
+
+exports[`Storyshots organisms/InformationList Default 1`] = `
+<div
+  className="InformationList__CardList-sc-74g2h2-0 eZrrwD"
+>
+  <article
+    className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
+  >
+    <div
+      className="WideCard__MetaInformationLine-sc-nrwjyl-1 cuvZVz"
+    >
+      <time
+        className="WideCard__Date-sc-nrwjyl-2 bfpOWL"
+        dateTime="2017-07-22"
+      >
+        2017/07/22
+      </time>
+      <ul
+        className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
+      >
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 jrWDKq"
+          color="red"
+        >
+          重要
+        </li>
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 gWhrIB"
+          color="orange"
+        >
+          メンテナンス
+        </li>
+      </ul>
+    </div>
+    <p
+      className="WideCard__Content-sc-nrwjyl-3 kAkQkf"
+    >
+      本日の19:00からメンテナンスのため、一時間ほどのサービス停止を予定しています。
+再開しだいメールにてアナウンスさせていただきます。
+ご迷惑をおかけしますが、ご理解ご協力のほどをよろしくお願いいたします。
+    </p>
+  </article>
+  <article
+    className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
+  >
+    <div
+      className="WideCard__MetaInformationLine-sc-nrwjyl-1 cuvZVz"
+    >
+      <time
+        className="WideCard__Date-sc-nrwjyl-2 bfpOWL"
+        dateTime="2017-07-22"
+      >
+        2017/07/22
+      </time>
+      <ul
+        className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
+      >
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 jrWDKq"
+          color="red"
+        >
+          重要
+        </li>
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 gWhrIB"
+          color="orange"
+        >
+          メンテナンス
+        </li>
+      </ul>
+    </div>
+    <p
+      className="WideCard__Content-sc-nrwjyl-3 kAkQkf"
+    >
+      本日の19:00からメンテナンスのため、一時間ほどのサービス停止を予定しています。
+再開しだいメールにてアナウンスさせていただきます。
+ご迷惑をおかけしますが、ご理解ご協力のほどをよろしくお願いいたします。
+    </p>
+  </article>
+</div>
 `;
 
 exports[`Storyshots organisms/PromotionsCarousel Default 1`] = `
