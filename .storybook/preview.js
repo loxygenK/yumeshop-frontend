@@ -2,6 +2,7 @@
 import { MINIMAL_VIEWPORTS } from '@storybook/addon-viewport';
 import * as NextImage from 'next/image';
 import GlobalStyle from '../src/styles/Globals';
+import '../src/helper/initializeDayjs';
 
 const OriginalNextImage = NextImage.default;
 
