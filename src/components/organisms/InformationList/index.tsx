@@ -1,6 +1,5 @@
-import { useMemo } from 'react';
 import { TagProps } from 'src/components/atoms/Tag';
-import { WideCard, WideCardProps } from 'src/components/molecules/WideCard';
+import { WideCard } from 'src/components/molecules/WideCard';
 import { breakpoint } from 'src/styles/breakpoint';
 import { spacingSizes } from 'src/styles/Tokens';
 import styled, { css } from 'styled-components';
