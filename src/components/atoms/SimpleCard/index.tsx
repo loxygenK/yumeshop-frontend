@@ -5,16 +5,17 @@ import { fontSizes, roundings, shadows, spacingSizes } from 'src/styles/Tokens';
 import { breakpoint } from 'src/styles/breakpoint';
 
 const CardWrapper = styled.article`
+  box-shadow: ${shadows.md};
+  border-radius: ${roundings.md};
+
   ${breakpoint.mb(css`
+    width: 200px;
     font-size: ${fontSizes.fontSize12};
   `)}
   ${breakpoint.pc(css`
+    width: 244px;
     font-size: ${fontSizes.fontSize18};
   `)}
-
-  box-shadow: ${shadows.md};
-  width: fit-content;
-  border-radius: ${roundings.md};
 `;
 
 const Image = styled.section`
@@ -39,6 +40,10 @@ const Content = styled.section`
   `)}
 `;
 
+const RoundedNextImage = styled(NextImage)`
+  border-radius: ${roundings.md} ${roundings.md} 0 0;
+`;
+
 export type SimpleCardProps = {
   children: ReactNode;
   imageUrl: string;
@@ -50,7 +55,7 @@ export const SimpleCard = ({
 }: SimpleCardProps): JSX.Element => (
   <CardWrapper>
     <Image>
-      <NextImage src={imageUrl} layout="fill" />
+      <RoundedNextImage src={imageUrl} layout="fill" />
     </Image>
     <Content>{children}</Content>
   </CardWrapper>
