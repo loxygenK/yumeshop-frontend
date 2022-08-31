@@ -14,14 +14,14 @@ const CardList = styled.div`
   display: flex;
   padding: ${spacingSizes.xs};
 
-  ${breakpoint.pc(css`
-    gap: ${spacingSizes.sm};
-    flex-wrap: wrap;
-  `)};
   ${breakpoint.mb(css`
     gap: ${spacingSizes.xs};
     flex-wrap: nowrap;
     overflow-x: scroll;
+  `)};
+  ${breakpoint.pc(css`
+    gap: ${spacingSizes.sm};
+    flex-wrap: wrap;
   `)};
 `;
 
