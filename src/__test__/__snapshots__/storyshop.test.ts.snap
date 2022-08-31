@@ -1332,7 +1332,7 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
 
 exports[`Storyshots organisms/CampaignList Default 1`] = `
 <div
-  className="CampaignList__CardList-sc-18q27e9-0 hAwqHH"
+  className="CampaignList__CardList-sc-18q27e9-0 dnsKMR"
 >
   <article
     className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
