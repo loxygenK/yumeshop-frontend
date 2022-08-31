@@ -1328,6 +1328,565 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
 </article>
 `;
 
+exports[`Storyshots organisms/CampaignList Default 1`] = `
+<div
+  className="CampaignList__CardList-sc-18q27e9-0 fkfzHV"
+>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/100/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      文房具セール
+    </section>
+  </article>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/200/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      キャンプ用品セール
+    </section>
+  </article>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/300/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      文房具セール
+    </section>
+  </article>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/400/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      キャンプ用品セール
+    </section>
+  </article>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/300/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      文房具セール
+    </section>
+  </article>
+  <article
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  >
+    <section
+      className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "left": 0,
+            "margin": 0,
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          data-nimg="fill"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://picsum.photos/id/400/300/200"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </section>
+    <section
+      className="SimpleCard__Content-sc-1rn6x81-2 lebyxT"
+    >
+      キャンプ用品セール
+    </section>
+  </article>
+</div>
+`;
+
 exports[`Storyshots organisms/Footer Footer 1`] = `
 <footer
   className="Footer__Wrapper-sc-10gingb-0 jJIwnP"
