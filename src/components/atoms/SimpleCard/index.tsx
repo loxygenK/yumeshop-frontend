@@ -39,6 +39,10 @@ const Content = styled.section`
   `)}
 `;
 
+const RoundedNextImage = styled(NextImage)`
+  border-radius: ${roundings.md} ${roundings.md} 0 0;
+`;
+
 export type SimpleCardProps = {
   children: ReactNode;
   imageUrl: string;
@@ -50,7 +54,7 @@ export const SimpleCard = ({
 }: SimpleCardProps): JSX.Element => (
   <CardWrapper>
     <Image>
-      <NextImage src={imageUrl} layout="fill" />
+      <RoundedNextImage src={imageUrl} layout="fill" />
     </Image>
     <Content>{children}</Content>
   </CardWrapper>
