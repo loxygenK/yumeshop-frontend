@@ -12,6 +12,7 @@ type CampaignsResponse = {
 
 const CardList = styled.div`
   display: flex;
+  padding: ${spacingSizes.xs};
 
   ${breakpoint.pc(css`
     gap: ${spacingSizes.sm};
@@ -20,6 +21,7 @@ const CardList = styled.div`
   ${breakpoint.mb(css`
     gap: ${spacingSizes.xs};
     flex-wrap: nowrap;
+    overflow-x: scroll;
   `)};
 `;
 
