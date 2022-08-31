@@ -11,7 +11,7 @@ const createMockMiddleWare =
   () =>
   (): SWRResponse => ({
     data: response,
-    mutate: (_) => Promise.resolve<T>(response),
+    mutate: () => Promise.resolve<T>(response),
     isValidating: false,
   });
 
