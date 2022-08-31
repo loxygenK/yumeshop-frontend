@@ -11,12 +11,12 @@ const response = [
   {
     id: '57c3ff77-d8bd-41bb-86e3-4526e1b2186c',
     name: '文房具セール',
-    thumbnail: 'https://picsum.photos/300/200',
+    thumbnail: 'https://picsum.photos/id/100/300/200',
   },
   {
     id: '57c3ff77-d8bd-41bb-86e3-4526e1b2186d',
     name: 'キャンプ用品セール',
-    thumbnail: 'https://picsum.photos/300/200',
+    thumbnail: 'https://picsum.photos/id/200/300/200',
   },
 ];
 
