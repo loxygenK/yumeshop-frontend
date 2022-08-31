@@ -26,12 +26,6 @@ const generateTagProps = (tag: TagResponse): TagProps => ({
   color: tag.color,
 });
 
-const generateWideCardProps = (info: InformationResponse): WideCardProps => ({
-  date: info.announced_at,
-  text: info.detail,
-  tags: info.tags.map(generateTagProps),
-});
-
 const CardList = styled.div`
   display: flex;
   flex-direction: column;
@@ -46,19 +40,20 @@ const CardList = styled.div`
 
 export const InformationList = (): JSX.Element => {
   const { data: information } = useSWR<InformationResponse[]>('/informations');
-  const cardProps: WideCardProps[] | undefined = useMemo(
-    () => information?.map(generateWideCardProps),
-    [information],
-  );
 
-  if (cardProps === undefined) {
+  if (information === undefined) {
     return <p>Loading...</p>;
   }
 
   return (
     <CardList>
-      {cardProps.map((prop) => (
-        <WideCard {...prop} />
+      {information.map((info) => (
+        <WideCard
+          key={info.id}
+          date={info.announced_at}
+          text={info.detail}
+          tags={info.tags.map(generateTagProps)}
+        />
       ))}
     </CardList>
   );
