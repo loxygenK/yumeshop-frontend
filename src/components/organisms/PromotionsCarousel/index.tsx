@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { Carousel } from 'src/components/atoms/Carousel';
 import useSWR from 'swr';
 
@@ -12,17 +13,19 @@ export type PromotionResponse = {
 export const PromotionsCarousel = (): JSX.Element => {
   const { data: promotions } = useSWR<PromotionResponse[]>('/promotions');
 
-  if (promotions === undefined) {
-    return <p>Loading...</p>;
-  }
-
-  return (
-    <Carousel
-      images={promotions.map((promotion) => ({
+  const images = useMemo(
+    () =>
+      promotions?.map((promotion) => ({
         id: promotion.id,
         imageUrl: promotion.image,
         linkHref: promotion.link,
-      }))}
-    />
+      })),
+    [promotions],
   );
+
+  if (images === undefined) {
+    return <p>Loading...</p>;
+  }
+
+  return <Carousel images={images} />;
 };
