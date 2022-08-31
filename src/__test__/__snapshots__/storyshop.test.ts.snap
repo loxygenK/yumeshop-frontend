@@ -1977,3 +1977,1416 @@ exports[`Storyshots organisms/Header Header 1`] = `
   </a>
 </header>
 `;
+
+exports[`Storyshots organisms/PromotionsCarousel Default 1`] = `
+<div
+  className="Carousel__CarouselWrapper-sc-1ey4ea4-0 jSTejE"
+  size="0px"
+>
+  <div
+    className="slick-slider slick-initialized"
+    dir="ltr"
+  >
+    <button
+      className="slick-arrow slick-prev"
+      data-role="none"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+      type="button"
+    >
+       
+      Previous
+    </button>
+    <div
+      className="slick-list"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={null}
+      onMouseMove={null}
+      onMouseUp={[Function]}
+      onTouchCancel={null}
+      onTouchEnd={[Function]}
+      onTouchMove={null}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "padding": "0px 0px",
+        }
+      }
+    >
+      <div
+        className="slick-track"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransition": "",
+            "msTransform": "translateX(0px)",
+            "opacity": 1,
+            "transform": "translate3d(0px, 0px, 0px)",
+            "transition": "",
+          }
+        }
+      >
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-center slick-cloned"
+          data-index={-4}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/100/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={-3}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/200/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={-2}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/400/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={-1}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/500/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={false}
+          className="slick-slide slick-active slick-center slick-current"
+          data-index={0}
+          onClick={[Function]}
+          style={
+            Object {
+              "outline": "none",
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/100/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide"
+          data-index={1}
+          onClick={[Function]}
+          style={
+            Object {
+              "outline": "none",
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/200/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide"
+          data-index={2}
+          onClick={[Function]}
+          style={
+            Object {
+              "outline": "none",
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/400/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide"
+          data-index={3}
+          onClick={[Function]}
+          style={
+            Object {
+              "outline": "none",
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/500/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-center slick-cloned"
+          data-index={4}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/100/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={5}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/200/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={6}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/400/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          className="slick-slide slick-cloned"
+          data-index={7}
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "0px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div>
+            <a
+              className="Carousel__LinkedImage-sc-1ey4ea4-1 cWEydM"
+              href="https://example.com/"
+              size="0px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "width": "100%",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": "initial",
+                    "left": 0,
+                    "margin": 0,
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "initial",
+                  }
+                }
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+                <noscript>
+                  <img
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="https://picsum.photos/id/500/600/600"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </noscript>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      className="slick-arrow slick-next"
+      data-role="none"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+      type="button"
+    >
+       
+      Next
+    </button>
+    <ul
+      className="slick-dots"
+      onMouseEnter={null}
+      onMouseLeave={null}
+      onMouseOver={null}
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <li
+        className="slick-active"
+      >
+        <button
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </li>
+      <li
+        className=""
+      >
+        <button
+          onClick={[Function]}
+        >
+          2
+        </button>
+      </li>
+      <li
+        className=""
+      >
+        <button
+          onClick={[Function]}
+        >
+          3
+        </button>
+      </li>
+      <li
+        className=""
+      >
+        <button
+          onClick={[Function]}
+        >
+          4
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

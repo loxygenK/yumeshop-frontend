@@ -1,3 +1,4 @@
+import { Story } from '@storybook/react';
 import { ReactNode, useMemo } from 'react';
 import { Middleware, SWRConfig, SWRResponse } from 'swr';
 
@@ -15,7 +16,7 @@ const createMockMiddleWare =
     isValidating: false,
   });
 
-export const MockAPIProvider = ({
+const MockAPIProvider = ({
   children,
   response,
 }: MockAPIProviderProps): JSX.Element => {
@@ -26,3 +27,11 @@ export const MockAPIProvider = ({
 
   return <SWRConfig value={{ use: [mockMiddleware] }}>{children}</SWRConfig>;
 };
+
+export const mockAPIDecorator =
+  (response: unknown) => (StoryComponent: Story) =>
+    (
+      <MockAPIProvider response={response}>
+        <StoryComponent />
+      </MockAPIProvider>
+    );

@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
-import { MockAPIProvider } from 'src/storybook/decorators/MockAPIProvider';
+import { mockAPIDecorator } from 'src/storybook/decorators/MockAPIProvider';
 import { CampaignList } from '.';
 
 export default {
@@ -41,11 +41,5 @@ const response = [
 ];
 
 export const Default: ComponentStoryObj<typeof CampaignList> = {
-  decorators: [
-    (Story) => (
-      <MockAPIProvider response={response}>
-        <Story />
-      </MockAPIProvider>
-    ),
-  ],
+  decorators: [mockAPIDecorator(response)],
 };
