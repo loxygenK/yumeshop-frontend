@@ -1978,6 +1978,87 @@ exports[`Storyshots organisms/Header Header 1`] = `
 </header>
 `;
 
+exports[`Storyshots organisms/InformationList Default 1`] = `
+<div
+  className="InformationList__CardList-sc-74g2h2-0 eZrrwD"
+>
+  <article
+    className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
+  >
+    <div
+      className="WideCard__MetaInformationLine-sc-nrwjyl-1 cuvZVz"
+    >
+      <time
+        className="WideCard__Date-sc-nrwjyl-2 bfpOWL"
+        dateTime="2017-07-22"
+      >
+        2017/07/22
+      </time>
+      <ul
+        className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
+      >
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 eXcEJX"
+          color="red"
+        >
+          重要
+        </li>
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 dthzjQ"
+          color="orange"
+        >
+          メンテナンス
+        </li>
+      </ul>
+    </div>
+    <p
+      className="WideCard__Content-sc-nrwjyl-3 kAkQkf"
+    >
+      本日の19:00からメンテナンスのため、一時間ほどのサービス停止を予定しています。
+再開しだいメールにてアナウンスさせていただきます。
+ご迷惑をおかけしますが、ご理解ご協力のほどをよろしくお願いいたします。
+    </p>
+  </article>
+  <article
+    className="WideCard__WideCardWrapper-sc-nrwjyl-0 iVTiwl"
+  >
+    <div
+      className="WideCard__MetaInformationLine-sc-nrwjyl-1 cuvZVz"
+    >
+      <time
+        className="WideCard__Date-sc-nrwjyl-2 bfpOWL"
+        dateTime="2017-07-22"
+      >
+        2017/07/22
+      </time>
+      <ul
+        className="Tags__TagsWrapper-sc-16wimeq-0 dwINUO"
+      >
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 eXcEJX"
+          color="red"
+        >
+          重要
+        </li>
+        <li
+          className="Tag__TagWrapper-sc-14oc89a-0 dthzjQ"
+          color="orange"
+        >
+          メンテナンス
+        </li>
+      </ul>
+    </div>
+    <p
+      className="WideCard__Content-sc-nrwjyl-3 kAkQkf"
+    >
+      本日の19:00からメンテナンスのため、一時間ほどのサービス停止を予定しています。
+再開しだいメールにてアナウンスさせていただきます。
+ご迷惑をおかけしますが、ご理解ご協力のほどをよろしくお願いいたします。
+    </p>
+  </article>
+</div>
+`;
+
 exports[`Storyshots organisms/PromotionsCarousel Default 1`] = `
 <div
   className="Carousel__CarouselWrapper-sc-1ey4ea4-0 jSTejE"
