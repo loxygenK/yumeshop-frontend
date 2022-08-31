@@ -1,7 +1,22 @@
+import { SimpleCard } from 'src/components/atoms/SimpleCard';
 import useSWR from 'swr';
 
-export const CampaignList = () => {
-  const { data } = useSWR('/campaigns');
+type CampaignsResponse = {
+  id: string;
+  name: string;
+  thumbnail: string;
+};
 
-  return <div>{JSON.stringify(data)}</div>;
+export const CampaignList = () => {
+  const { data: campaigns } = useSWR<CampaignsResponse[]>('/campaigns');
+
+  if (campaigns === undefined) {
+    return <p>Loading...</p>;
+  }
+
+  return campaigns.map((campaign) => (
+    <SimpleCard key={campaign.id} imageUrl={campaign.thumbnail}>
+      {campaign.name}
+    </SimpleCard>
+  ));
 };
