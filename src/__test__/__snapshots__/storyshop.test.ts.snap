@@ -1184,6 +1184,7 @@ exports[`Storyshots atoms/SimpleCard Default 1`] = `
       }
     >
       <img
+        className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
         data-nimg="fill"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1212,6 +1213,7 @@ exports[`Storyshots atoms/SimpleCard Default 1`] = `
       />
       <noscript>
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
@@ -1330,7 +1332,7 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
 
 exports[`Storyshots organisms/CampaignList Default 1`] = `
 <div
-  className="CampaignList__CardList-sc-18q27e9-0 fkfzHV"
+  className="CampaignList__CardList-sc-18q27e9-0 bwDwmL"
 >
   <article
     className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
@@ -1360,6 +1362,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1388,6 +1391,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
@@ -1452,6 +1456,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1480,6 +1485,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
@@ -1544,6 +1550,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1572,6 +1579,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
@@ -1636,6 +1644,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1664,6 +1673,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
@@ -1728,6 +1738,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1756,6 +1767,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
@@ -1820,6 +1832,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         }
       >
         <img
+          className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1848,6 +1861,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
         />
         <noscript>
           <img
+            className="SimpleCard__RoundedNextImage-sc-1rn6x81-3 fQfLSb"
             data-nimg="fill"
             decoding="async"
             loading="lazy"
