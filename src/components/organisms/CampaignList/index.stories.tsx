@@ -18,6 +18,26 @@ const response = [
     name: 'キャンプ用品セール',
     thumbnail: 'https://picsum.photos/id/200/300/200',
   },
+  {
+    id: '57c3ff77-d8bd-41bb-86e3-4526e1b2186e',
+    name: '文房具セール',
+    thumbnail: 'https://picsum.photos/id/300/300/200',
+  },
+  {
+    id: '57c3ff77-d8bd-41bb-86e3-4526e1b2186f',
+    name: 'キャンプ用品セール',
+    thumbnail: 'https://picsum.photos/id/400/300/200',
+  },
+  {
+    id: '57c3ff77-d8bd-41bb-86e3-4526e1b21870',
+    name: '文房具セール',
+    thumbnail: 'https://picsum.photos/id/300/300/200',
+  },
+  {
+    id: '57c3ff77-d8bd-41bb-86e3-4526e1b21871',
+    name: 'キャンプ用品セール',
+    thumbnail: 'https://picsum.photos/id/400/300/200',
+  },
 ];
 
 export const Default: ComponentStoryObj<typeof CampaignList> = {
