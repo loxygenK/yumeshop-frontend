@@ -1157,7 +1157,7 @@ exports[`Storyshots atoms/Logo Logo 1`] = `
 
 exports[`Storyshots atoms/SimpleCard Default 1`] = `
 <article
-  className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+  className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
 >
   <section
     className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1332,10 +1332,10 @@ exports[`Storyshots molecules/WideCard Default 1`] = `
 
 exports[`Storyshots organisms/CampaignList Default 1`] = `
 <div
-  className="CampaignList__CardList-sc-18q27e9-0 bwDwmL"
+  className="CampaignList__CardList-sc-18q27e9-0 hAwqHH"
 >
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1429,7 +1429,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
     </section>
   </article>
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1523,7 +1523,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
     </section>
   </article>
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1617,7 +1617,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
     </section>
   </article>
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1711,7 +1711,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
     </section>
   </article>
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
@@ -1805,7 +1805,7 @@ exports[`Storyshots organisms/CampaignList Default 1`] = `
     </section>
   </article>
   <article
-    className="SimpleCard__CardWrapper-sc-1rn6x81-0 jPxKjc"
+    className="SimpleCard__CardWrapper-sc-1rn6x81-0 eXcGaU"
   >
     <section
       className="SimpleCard__Image-sc-1rn6x81-1 ixHnGb"
