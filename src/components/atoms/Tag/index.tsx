@@ -12,13 +12,14 @@ const TagWrapper = styled.li<Pick<TagProps, 'color'>>`
   background-color: ${(props) => props.color};
   color: white;
   list-style: none;
-  padding: 0 ${spacingSizes.xs};
 
   ${breakpoint.mb(css`
     font-size: 12px;
+    padding: 0 ${spacingSizes.xxs};
   `)}
   ${breakpoint.pc(css`
     font-size: 22px;
+    padding: 0 ${spacingSizes.xs};
   `)}
 `;
 
