@@ -13,11 +13,11 @@ type CampaignsResponse = {
 const CardList = styled.div`
   display: flex;
   padding: ${spacingSizes.xs};
+  width: 100%;
 
   ${breakpoint.mb(css`
     gap: ${spacingSizes.xs};
     flex-wrap: nowrap;
-    overflow-x: scroll;
   `)};
   ${breakpoint.pc(css`
     gap: ${spacingSizes.sm};
